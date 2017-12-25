@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38B56DC11FF0885F00A48466 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B56DBF1FF0885F00A48466 /* Home.storyboard */; };
+		38B56DC31FF088A300A48466 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B56DC21FF088A300A48466 /* Live.storyboard */; };
+		38B56DC61FF088CF00A48466 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B56DC41FF088CF00A48466 /* Follow.storyboard */; };
+		38B56DC81FF088E900A48466 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B56DC71FF088E900A48466 /* Profile.storyboard */; };
+		38B56DE81FF0C14A00A48466 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38B56DE71FF0C14900A48466 /* Default-568h@2x.png */; };
 		38D669081FF07F150090014D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D669071FF07F150090014D /* AppDelegate.swift */; };
 		38D6690D1FF07F150090014D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D6690B1FF07F150090014D /* Main.storyboard */; };
 		38D6690F1FF07F150090014D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D6690E1FF07F150090014D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38B56DC01FF0885F00A48466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyLive/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		38B56DC21FF088A300A48466 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		38B56DC51FF088CF00A48466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyLive/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		38B56DC71FF088E900A48466 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		38B56DE71FF0C14900A48466 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../../Resource/launch/Default-568h@2x.png"; sourceTree = "<group>"; };
 		38D669041FF07F150090014D /* MyLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D669071FF07F150090014D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D6690C1FF07F150090014D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				38D669191FF080F80090014D /* Classes */,
-				38D669071FF07F150090014D /* AppDelegate.swift */,
 				38D6690B1FF07F150090014D /* Main.storyboard */,
 				38D6690E1FF07F150090014D /* Assets.xcassets */,
+				38B56DE71FF0C14900A48466 /* Default-568h@2x.png */,
 				38D669131FF07F150090014D /* Info.plist */,
 			);
 			path = MyLive;
@@ -64,8 +74,8 @@
 			children = (
 				38D6691D1FF080F80090014D /* Main */,
 				38D6691B1FF080F80090014D /* Home */,
-				38D6691A1FF080F80090014D /* Follow */,
 				38D6691C1FF080F80090014D /* Live */,
+				38D6691A1FF080F80090014D /* Follow */,
 				38D6691E1FF080F80090014D /* Profile */,
 				38D6691F1FF080F80090014D /* Tools */,
 			);
@@ -75,6 +85,7 @@
 		38D6691A1FF080F80090014D /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				38B56DC41FF088CF00A48466 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -82,6 +93,7 @@
 		38D6691B1FF080F80090014D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				38B56DBF1FF0885F00A48466 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -89,6 +101,7 @@
 		38D6691C1FF080F80090014D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				38B56DC21FF088A300A48466 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -96,6 +109,7 @@
 		38D6691D1FF080F80090014D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				38D669071FF07F150090014D /* AppDelegate.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -103,6 +117,7 @@
 		38D6691E1FF080F80090014D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				38B56DC71FF088E900A48466 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -173,7 +188,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B56DC81FF088E900A48466 /* Profile.storyboard in Resources */,
+				38B56DC61FF088CF00A48466 /* Follow.storyboard in Resources */,
+				38B56DC11FF0885F00A48466 /* Home.storyboard in Resources */,
 				38D6690F1FF07F150090014D /* Assets.xcassets in Resources */,
+				38B56DC31FF088A300A48466 /* Live.storyboard in Resources */,
+				38B56DE81FF0C14A00A48466 /* Default-568h@2x.png in Resources */,
 				38D6690D1FF07F150090014D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +212,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		38B56DBF1FF0885F00A48466 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B56DC01FF0885F00A48466 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		38B56DC41FF088CF00A48466 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B56DC51FF088CF00A48466 /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
 		38D6690B1FF07F150090014D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -314,16 +350,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMR294B4GR;
 				INFOPLIST_FILE = MyLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hejinxi.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,16 +366,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMR294B4GR;
 				INFOPLIST_FILE = MyLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hejinxi.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
