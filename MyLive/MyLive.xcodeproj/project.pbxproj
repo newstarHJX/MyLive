@@ -10,7 +10,6 @@
 		38D669081FF07F150090014D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D669071FF07F150090014D /* AppDelegate.swift */; };
 		38D6690D1FF07F150090014D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D6690B1FF07F150090014D /* Main.storyboard */; };
 		38D6690F1FF07F150090014D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D6690E1FF07F150090014D /* Assets.xcassets */; };
-		38D669121FF07F150090014D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D669101FF07F150090014D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +17,6 @@
 		38D669071FF07F150090014D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D6690C1FF07F150090014D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38D6690E1FF07F150090014D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38D669111FF07F150090014D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D669131FF07F150090014D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 				38D669071FF07F150090014D /* AppDelegate.swift */,
 				38D6690B1FF07F150090014D /* Main.storyboard */,
 				38D6690E1FF07F150090014D /* Assets.xcassets */,
-				38D669101FF07F150090014D /* LaunchScreen.storyboard */,
 				38D669131FF07F150090014D /* Info.plist */,
 			);
 			path = MyLive;
@@ -176,7 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D669121FF07F150090014D /* LaunchScreen.storyboard in Resources */,
 				38D6690F1FF07F150090014D /* Assets.xcassets in Resources */,
 				38D6690D1FF07F150090014D /* Main.storyboard in Resources */,
 			);
@@ -202,14 +198,6 @@
 				38D6690C1FF07F150090014D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		38D669101FF07F150090014D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38D669111FF07F150090014D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -330,7 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMR294B4GR;
 				INFOPLIST_FILE = MyLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hejinxi.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,7 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMR294B4GR;
 				INFOPLIST_FILE = MyLive/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hejinxi.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
